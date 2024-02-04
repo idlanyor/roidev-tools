@@ -78,7 +78,7 @@ export function NavbarFront() {
         fontFamily: 'Protest Revolution'
     }
     return (
-        <>
+        <div>
             <Navbar className="mt-5 shadow-lg bg-white px-6 py-3">
                 <div className="flex items-center justify-between text-blue-gray-900">
                     <Link
@@ -110,6 +110,6 @@ export function NavbarFront() {
             </Navbar>
             <Outlet />
             <TeksJalan />
-        </>
+        </div>
     );
 }
