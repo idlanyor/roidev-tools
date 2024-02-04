@@ -1,18 +1,24 @@
 import { Routes, Route } from 'react-router-dom';
-import { Home } from './Home';
 import { NavbarFront } from './NavbarFront';
-import YtMp3 from './Downloader/YtMp3';
+import FiturCard from './FiturCard';
+import { aigpt, downloader, edu, islami, other } from './data/Fitur';
 export default function Router() {
-    return (<Routes>
-        <Route path='*' Component={Home} />
-        <Route path='/' Component={NavbarFront}>
-            <Route index Component={Home}/>
-            <Route path='ytmp3' Component={YtMp3} />
-        </Route>
-        <Route path='panel'>
-        </Route>
-        <Route path='dashboard'>
-            <Route path='cetak' />
-        </Route>
-    </Routes>);
+    return (
+        <Routes>
+            <Route path='*' Component={NavbarFront} />
+            <Route path='/' Component={NavbarFront}>
+                <Route index element={<FiturCard data={downloader} />} />
+                <Route path='edu' element={<FiturCard data={edu} />} />
+                <Route path='gpt-ai' element={<FiturCard data={aigpt} />} />
+                <Route path='islami' element={<FiturCard data={islami} />} />
+                <Route path='other-tools' element={<FiturCard data={other} />} />
+            </Route>
+            <Route path='panel'>
+                <Route path='cetak' />
+            </Route>
+            <Route path='dashboard'>
+                <Route path='cetak' />
+            </Route>
+        </Routes>
+    );
 }

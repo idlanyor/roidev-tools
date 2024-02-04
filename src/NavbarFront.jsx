@@ -9,6 +9,8 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, Outlet } from "react-router-dom";
 import { FaDownload, FaGraduationCap } from "react-icons/fa";
 import { RiMoonFill, RiOpenaiFill } from "react-icons/ri";
+import { MdMiscellaneousServices } from "react-icons/md";
+import TeksJalan from "./TeksJalan";
 
 function NavList() {
     const data = [
@@ -18,9 +20,9 @@ function NavList() {
             title: 'Downloader'
         },
         {
-            link: '/pddikti',
+            link: '/edu',
             icon: FaGraduationCap,
-            title: 'PDDikti'
+            title: 'Edukasi'
         },
         {
             link: '/gpt-ai',
@@ -32,6 +34,11 @@ function NavList() {
             icon: RiMoonFill,
             title: 'Islami'
         },
+        {
+            link: '/other-tools',
+            icon: MdMiscellaneousServices,
+            title: 'Tools Lain'
+        },
     ]
     return (
         <ul className="my-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
@@ -40,7 +47,7 @@ function NavList() {
                     <Typography
                         key={index}
                         as="li"
-                        variant="medium"
+                        variant="paragraph"
                         color="blue-gray"
                         className="p-1 font-medium"
                     >
@@ -102,6 +109,7 @@ export function NavbarFront() {
                 </Collapse>
             </Navbar>
             <Outlet />
+            <TeksJalan />
         </>
     );
 }

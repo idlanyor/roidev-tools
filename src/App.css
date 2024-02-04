@@ -1,0 +1,30 @@
+.horizontal-scroll-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.horizontal-scroll-wrapper {
+    display: inline-block;
+    white-space: nowrap;
+    /* Untuk mencegah pemisahan kata */
+    animation: scrollRight 60s linear infinite;
+    /* Animasi berjalan dari kiri ke kanan */
+}
+
+.horizontal-scroll-text {
+    display: inline-block;
+    padding-right: 10px;
+    /* Jarak antara teks yang berulang */
+}
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(0);
+        /* Mulai dari posisi awal (kiri) */
+    }
+
+    100% {
+        transform: translateX(-100%);
+        /* Berakhir di posisi akhir (kiri) */
+    }
+}
