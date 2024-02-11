@@ -12,13 +12,13 @@ export const downloader = [
         title: "Youtube MP4",
         color: "Blue",
         link: 'downloader/ytmp4',
-        desc: "Download MP4 From Youtube",
+        desc: "Download Video dari Youtube",
     },
     {
         icon: SiYoutubemusic,
         title: "Youtube MP3",
         link: 'downloader/ytmp4',
-        desc: "Download Lagu Mp3 dari Youtube" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
+        desc: "Download Musik dari Youtube" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
     },
     {
         icon: FaTiktok,
@@ -30,7 +30,7 @@ export const downloader = [
         icon: FaFacebook,
         title: "Facebook Video", // Merubah judul menjadi sesuai dengan ikon yang digunakan
         link: 'downloader/ytmp4',
-        desc: "Download Video From Facebook" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
+        desc: "Download Video dari Facebook" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
     },
     {
         icon: FaInstagram,
@@ -42,25 +42,25 @@ export const downloader = [
         icon: SiMediafire,
         title: "Media Fire", // Merubah judul menjadi sesuai dengan ikon yang digunakan
         link: 'downloader/ytmp4',
-        desc: "Download Video dari Instagram" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
+        desc: "Download Video dari Media Fire" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
     },
     {
         icon: RiVideoDownloadLine,
         title: "SnackVideo", // Merubah judul menjadi sesuai dengan ikon yang digunakan
         link: 'downloader/ytmp4',
-        desc: "Download Video dari Instagram" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
+        desc: "Download Video dari SnackVideo" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
     },
     {
         icon: RiVideoDownloadFill,
         title: "CocoFun", // Merubah judul menjadi sesuai dengan ikon yang digunakan
         link: 'downloader/ytmp4',
-        desc: "Download Video dari Instagram" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
+        desc: "Download Video dari Cocofun" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
     },
     {
         icon: RiTwitterXFill,
         title: "Twitter(X)", // Merubah judul menjadi sesuai dengan ikon yang digunakan
         link: 'downloader/ytmp4',
-        desc: "Download Video dari Instagram" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
+        desc: "Download Video dari Twitter" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
     },
 ];
 export const edu = [
@@ -79,7 +79,7 @@ export const edu = [
     },
     {
         icon: FaBookReader,
-        title: "Perpus Kemendikbud", // Merubah judul menjadi sesuai dengan ikon yang digunakan
+        title: "Perpus Dikbud", // Merubah judul menjadi sesuai dengan ikon yang digunakan
         link: 'edukasi/ytmp4',
         desc: "Download Video TikTok tanpa WM" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
     },
@@ -93,11 +93,11 @@ export const edu = [
         icon: FaBook,
         title: "KBBI", // Merubah judul menjadi sesuai dengan ikon yang digunakan
         link: 'edukasi/ytmp4',
-        desc: "Kamus Besar Bahasa Indonesia" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
+        desc: "Kamus Besar Bhs Indonesia" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
     },
     {
         icon: FaSchool,
-        title: "Data Sekolah Indonesia", // Merubah judul menjadi sesuai dengan ikon yang digunakan
+        title: "Data Sekolah", // Merubah judul menjadi sesuai dengan ikon yang digunakan
         link: 'edukasi/ytmp4',
         desc: "Download Video dari Instagram" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
     },
@@ -114,7 +114,7 @@ export const aigpt = [
         icon: FaCode,
         title: "Code Translator",
         link: 'ai/ytmp4',
-        desc: "Konversi kode antar bahasa pemrograman" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
+        desc: "Terjemah bahasa pemrograman" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
     },
     {
         icon: IoChatbubbles,
@@ -124,13 +124,13 @@ export const aigpt = [
     },
     {
         icon: SiOpenai,
-        title: "GPT Speect-to-Text", // Merubah judul menjadi sesuai dengan ikon yang digunakan
+        title: "GPT STT", // Merubah judul menjadi sesuai dengan ikon yang digunakan
         link: 'ai/ytmp4',
         desc: "Download Video From Facebook" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
     },
     {
         icon: SiOpenai,
-        title: "GPT Text-to-Speech", // Merubah judul menjadi sesuai dengan ikon yang digunakan
+        title: "GPT TTS", // Merubah judul menjadi sesuai dengan ikon yang digunakan
         link: 'ai/ytmp4',
         desc: "Download Video dari Instagram" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
     },
@@ -145,7 +145,7 @@ export const islami = [
     },
     {
         icon: FaBookQuran,
-        title: "Al - Quran Online",
+        title: "Al - Quran",
         link: 'islami/ytmp4',
         desc: "Download Lagu Mp3 dari Youtube" // Merubah deskripsi menjadi sesuai dengan ikon yang digunakan
     },

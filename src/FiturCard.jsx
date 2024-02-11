@@ -17,7 +17,7 @@ const FiturCard = ({ data }) => {
                     <Link key={index} to={d.link}>
                         <Card key={index} className="mt-6 hover:text-red-500 mx-auto w-36 sm:w-40">
                             <CardBody className="flex flex-col items-center text-center">
-                                <d.icon className="w-[50px] h-auto " />
+                                <d.icon className="w-[50px] h-auto "/>
                                 <Typography variant="small" color="blue-gray" className="mb-2 mt-2 font-bold">
                                     {d.title}
                                 </Typography>

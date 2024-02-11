@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import { NavbarFront } from './NavbarFront';
 import FiturCard from './FiturCard';
 import { aigpt, downloader, edu, islami, other } from './data/Fitur';
-import YtMp3 from './Downloader/YtMp3';
+import FormDownloader from './Downloader/Form';
 export default function Router() {
     return (
         <Routes>
@@ -15,7 +15,13 @@ export default function Router() {
                 <Route path='other-tools' element={<FiturCard data={other} />} />
             </Route>
             <Route path='downloader' Component={NavbarFront}>
-                <Route path='ytmp4' Component={YtMp3} />
+                <Route path='ytmp4' element={<FormDownloader data={
+                    {
+                        title: 'Youtube Video',
+                        desc: 'Download Video dari Youtube',
+                        placeholder: 'Paste Link Youtube disini'
+                    }
+                } />} />
             </Route>
             <Route path='dashboard'>
                 <Route path='cetak' />

@@ -49,7 +49,9 @@ const TeksJalan = () => {
         <div className="horizontal-scroll-container bg-black py-2 rounded-md">
             <div className="horizontal-scroll-wrapper font-bold">
                 {data && data.map((d, index) => (
-                    <div key={index} className="horizontal-scroll-text" style={{ color: textColors[index] }}>{d}</div>
+                    <div
+                        key={index} className="horizontal-scroll-text"
+                        style={{ color: textColors[index] }}>{d}</div>
                 ))}
             </div>
         </div>
